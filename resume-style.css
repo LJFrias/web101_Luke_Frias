@@ -71,7 +71,10 @@ body {
   .work-title { grid-area: 2 / 3 / 3 / 4; }
   .work {
      grid-area: 3 / 3 / 4 / 4; 
-     font-family: 'Roboto', sans-serif;    
+     font-family: 'Roboto', sans-serif;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;    
     }
   .education-title { grid-area: 4 / 3 / 5 / 4; }
   .education { 
