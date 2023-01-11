@@ -46,6 +46,12 @@ body {
     padding: 20px;
   }
 
+  .has-border:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
+  }
+
   nav {
     display: flex;
     justify-content: flex-end;
@@ -101,4 +107,10 @@ body {
     border: 2px solid #f3f0f0;
     justify-content: center;
     align-items: center;
+  }
+
+  button:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
   }
