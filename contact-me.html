@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact-style.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    
+    <div class="container">
+        <section class="scenic-pic">
+            <h1>Contact Me</h1>
+        </section>
+
+        <section class="oregon-pic">
+            <img src="./oregonsign.jpg" alt="oregonsign">
+        </section>
+
+    <form class="form-group" action="results.html" method="GET" enctype="multipart/form-data">
+            
+        <section class="hear-about">  
+            <div class="how-me">
+            <h3>How did you hear about me?</h3>
+                <div>
+                    <label for="classmate">Classmate</label>
+                    <input type="checkbox" name="classmate" id="classmate">
+                </div>
+                <div>
+                    <label for="resume-submission">Resume Submission</label>
+                    <input type="checkbox" name="resume-submission" id="resume-submission">
+                </div>
+                <div>
+                    <label for="linkedin">Linkedin</label>
+                    <input type="checkbox" name="linkedin" id="linkedin">
+                </div>
+                <div>
+                    <label for="coding-academy-rec">Coding Academy Rec</label>
+                    <input type="checkbox" name="coding-academy-rec" id="coding-academy-recv">
+                </div>
+            </div> 
+
+            <div class="birthday">
+            <h3>Let me wish you a Happy Birthday!</h3>
+                <div>
+                    <label for="date">Birthday</label>
+                    <input type="date" name="date" id="date" min="1900-06-10">
+                </div>
+            </div>
+        </section>
+
+        <section class="personal-info">
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" >
+            </div>
+
+            <div>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+
+            <div class="reply">
+            <h3>Contact back?</h3>
+                <div>
+                <label for="yes">Yes</label>
+                <input type="radio" name="answer" id="yes" value="yes">
+                </div>
+                <div>
+                <label for="no">No</label>
+                <input type="radio" name="answer" id="no" value="no">
+                </div>
+            </div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </section>
+        </form>
+    </div>
+    
+</body>
+</html>
